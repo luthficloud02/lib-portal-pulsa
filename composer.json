@@ -10,7 +10,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "Growinc\\LibPortalPulsa\\": "src/"
+            "LuthfiCloud02\\LibPortalPulsa\\": "src/"
         }
     },
     "require": {
@@ -39,7 +39,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Growinc\\LibPortalPulsa\\ConfigProvider"
+            "config": "LuthfiCloud02\\LibPortalPulsa\\ConfigProvider"
         }
     }
 }
