@@ -2,6 +2,7 @@
     "name": "growinc/lib-portal-pulsa",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "keywords": [
         "php",
         "hyperf"
