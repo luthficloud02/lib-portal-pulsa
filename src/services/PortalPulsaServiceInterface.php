@@ -1,6 +1,6 @@
 <?php
 
-namespace Growinc\LibPortalPulsa\Services;
+namespace LuthfiCloud02\LibPortalPulsa\Services;
 
 interface PortalPulsaServiceInterface
 {

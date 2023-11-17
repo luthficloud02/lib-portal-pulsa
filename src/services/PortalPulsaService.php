@@ -1,8 +1,8 @@
 <?php
 
-namespace Growinc\LibPortalPulsa\Services;
+namespace LuthfiCloud02\LibPortalPulsa\Services;
 
-use Growinc\LibPortalPulsa\Traits\HttpClient;
+use LuthfiCloud02\LibPortalPulsa\Traits\HttpClient;
 
 class PortalPulsaService implements PortalPulsaServiceInterface
 {

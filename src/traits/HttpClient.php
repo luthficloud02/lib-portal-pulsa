@@ -1,6 +1,6 @@
 <?php
 
-namespace Growinc\LibPortalPulsa\Traits;
+namespace LuthfiCloud02\LibPortalPulsa\Traits;
 
 use GuzzleHttp\Client;
 
