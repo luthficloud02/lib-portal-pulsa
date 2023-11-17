@@ -2,7 +2,7 @@
     "name": "luthficloud02/lib-portal-pulsa",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "dev-master",
     "keywords": [
         "php",
         "hyperf"
@@ -38,6 +38,9 @@
         "cs-fix": "php-cs-fixer fix $1"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.1-dev"
+        },
         "hyperf": {
             "config": "LuthfiCloud02\\LibPortalPulsa\\ConfigProvider"
         }
