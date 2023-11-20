@@ -12,12 +12,17 @@ declare(strict_types=1);
 
 namespace LuthfiCloud02\LibPortalPulsa;
 
+use LuthfiCloud02\LibPortalPulsa\Services\PortalPulsaService;
+use LuthfiCloud02\LibPortalPulsa\Services\PortalPulsaServiceInterface;
+
 class ConfigProvider
 {
     public function __invoke(): array
     {
         return [
-            'dependencies' => [],
+            'dependencies' => [
+                PortalPulsaServiceInterface::class => PortalPulsaService::class,
+            ],
             'commands' => [],
             'annotations' => [
                 'scan' => [
